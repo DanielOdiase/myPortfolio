@@ -65,10 +65,10 @@ const list = [
               <PortfolioList title={item.title} active={selected===item.id} setSelected={setSelected} id={item.id}/>)} 
             </ul> 
             <div className="container">
-              {data.map((d)=>(<div className="item">
-                    <img src={d.img} alt="" className="netimg"></img>
-                <h3>{d.title}</h3>
-                </div>))}
+              {data.map((d)=>(<>
+                    <a href = {d.link} target="_blank" rel="noreferrer" className="item"> <img src={d.img} alt="" className="netimg"></img> 
+                <h3>{d.title}</h3></a>
+                </>))}
                 
          </div>
          </div>

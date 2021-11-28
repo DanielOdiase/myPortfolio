@@ -1,9 +1,9 @@
 export const featuredPortfolio = [
     {
       id: 1,
-      title: "Social Media App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      title: "Checklist App",
+      image:"https://media.smallbiztrends.com/2018/05/shutterstock_735943552.jpg",
+        link:"https://checklistapp-2af94.web.app/",
     },
     {
       id: 2,
