@@ -23,7 +23,7 @@ const Intro = () => {
                  and a coding passion.
                I love to learn,design and bring to life crazy and innovative ideas.
                </div>
-               <a href="https://drive.google.com/file/d/1Wi4sgArkc88qXcJSUV9osjRx9zbY7svs/view"  className="resume"download>Download resume</a>
+               <a href="https://drive.google.com/file/d/1ek0db0ihMDRG0QwjhXPjCCWk3fiYajdD/view?usp=sharing"  className="resume"download>Download resume</a>
             </div>
            
             </div>

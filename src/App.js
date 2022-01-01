@@ -9,7 +9,7 @@ import Portfolio from './components/portfoliof/Portfolio';
 import {useState,useContext} from 'react'
 import Menu from './components/menu/Menu';
 import { ThemeContext } from './context';
-
+import About from './components/About/About'
 
 function App() {
   const [menuOpen, setMenuOpen]= useState(false)
@@ -23,6 +23,7 @@ function App() {
       <div className="sections">
       
       <Intro />
+      <About />
       <Portfolio/>
       <Contacts />
     

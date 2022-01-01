@@ -31,14 +31,15 @@ export default function Contacts() {
       rel="noreferrer"
       class="btn contact-details"
       ><i className="fab fa-github"></i> GitHub</a>
-    <a
+    
+       <a
      id="profile-link"
-      href="https://twitter.com/DanielOdiase1"
+      href="https://www.linkedin.com/in/daniel-odiase-b95b35109/"
       target="_blank"
       rel="noreferrer"
       className="btn contact-details"
-       ><i className="fab fa-twitter" style={{color:"#1DA1F2"}}></i>
-       Twitter</a>
+       ><i className="fab fa-linkedin" style={{color:"#2867B2"}}></i>
+       LinkedIn</a>
        
       </div>
       </div>
