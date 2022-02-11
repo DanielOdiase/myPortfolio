@@ -3,7 +3,7 @@
     height: 70px;
     background-color: white;
     color: #15023a;
-    position:sticky;
+    position:fixed;
     top:0;
     z-index: 3;
     transition: all 1s ease;

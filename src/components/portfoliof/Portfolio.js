@@ -2,74 +2,15 @@ import React from 'react'
 import "./Portfolio.css"
 import CheckListApp from "../../image/Checklistapp.png"
 import Expensetrackr from "../../image/ExpenseTrackr.png"
-import Portimg from "../../image/PortImg.png"
-//import PortfolioList from '../portfolioList/PortfolioList';
-//import { useState,useEffect } from 'react';
 
-//import {
- // featuredPortfolio,
-  //webPortfolio,
- // mobilePortfolio,
- // designPortfolio,
-  //contentPortfolio,
-//} from "../../data";
+
 
 export default function Portfolio() {
-//const [selected,setSelected]= useState("featured")
-//const [data,setData]=useState([])
-//const list = [
- //{
-          //id: "featured",
-         // title: "Featured",
-        //},
-        //{
-         // id: "web",
-         // title: "Web App",
-       // },
-        //{
-         // id: "mobile",
-         // title: "Mobile App",
-        //},
-       // {
-        //  id: "design",
-        //  title: "Design",
-       // },
-       // {
-        //  id: "content",
-        //  title: "Content",
-       // },
-     // ];
 
-      // To implement as scope of Projects increase
-   // useEffect(() => {
-       // switch(selected){
-       //  case "featured":
-         //  setData(featuredPortfolio);
-          // break;
-          // case "web":
-          //  setData(webPortfolio);
-           // break;
-           // case "mobile":
-             // setData(mobilePortfolio);
-              //break;
-              //case "design":
-               // setData(designPortfolio);
-                //break;
-               // case "content":
-                 // setData(contentPortfolio);
-                  //break;
-                  //default:
-                    //setData(featuredPortfolio);         
-       // }
-    //  }, [selected])
     return (
         <div className ="portfolio" id="portfolio">
             <h1 style={{backgroundColor:"inherit"}}>Projects </h1>
-           {/*<ul className="port">
-            {list.map((item)=> 
-              <PortfolioList title={item.title} active={selected===item.id} setSelected={setSelected} id={item.id}/>)} 
-            </ul> */}
-            
+          
             <div className='container'>
               <div className='p-left'>
                 <h3 className='p-text'> FULL STACK DEVELOPER </h3>
@@ -116,8 +57,8 @@ export default function Portfolio() {
                   Which made me create this CRUD task management app. App includes User-Auth,Creating Tasks, Updating Task Stage, Deleting Task Stage, and 
                   personalized User profile page.
                   </p>
-                  <button className="p-button">
-                    <a href="#" className='p-button-ref'><span className='p-span'>View Project!</span></a>
+                  <button className="p-button" >
+                    <a href="https://checklistapp-2af94.web.app/" className='p-button-ref'><span className='p-span'>View Project!</span></a>
                   </button>
                   </div>
               </div>
@@ -164,7 +105,7 @@ export default function Portfolio() {
                  I decided to embark on creating a voice assisted Expense-Tracker.
                   </p>
                   <button className="p-button">
-                    <a href="#" className='p-button-ref'><span className='p-span'>View Project!</span></a>
+                    <a href="https://radiant-fjord-58533.herokuapp.com/" className='p-button-ref'><span className='p-span'>View Project!</span></a>
                   </button>
                   </div>
               </div>
