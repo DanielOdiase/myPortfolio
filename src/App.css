@@ -1,25 +1,13 @@
-*{
-  margin: 0;
-}
+
   .app{
-    height: 100vh;
+    height: 100%;
     overflow-x: hidden;
-    
     z-index: 1000;
   }
   .sections{
     width: 100%;
-    height: calc(100vh -70px);
+    height: 100%;
     position: relative;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
   }
-.app > * {
-  width: 100vw;
-  height: calc(100vh -70px);
-  scroll-snap-align: start;
-  
-  
-  
-  
-}

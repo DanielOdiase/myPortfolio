@@ -10,7 +10,6 @@ export default function Portfolio() {
     return (
         <div className ="portfolio" id="portfolio">
             <h1 style={{backgroundColor:"inherit"}}>Projects </h1>
-          
             <div className='container'>
               <div className='p-left'>
                 <h3 className='p-text'> FULL STACK DEVELOPER </h3>
