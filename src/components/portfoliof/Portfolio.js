@@ -2,6 +2,7 @@ import React from 'react'
 import "./Portfolio.css"
 import CheckListApp from "../../image/Checklistapp.png"
 import Expensetrackr from "../../image/ExpenseTrackr.png"
+import collaboardImg from '../../image/collaboard.png'
 
 
 
@@ -137,7 +138,7 @@ export default function Portfolio() {
                 </div>
                 <div className='p-right'>
                     <a href="https://collaboard-rust.vercel.app/" target="_blank" rel="noreferrer" className="item">
-                        <img src={require("../../image/collaboard.png")} alt="Collaboard Screenshot" className="netimg" />
+                        <img src={collaboardImg} alt="Collaboard Screenshot" className="netimg" />
                     </a>
                 </div>
             </div>
