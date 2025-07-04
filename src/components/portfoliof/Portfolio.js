@@ -136,9 +136,8 @@ export default function Portfolio() {
                     </div>
                 </div>
                 <div className='p-right'>
-                    {/* Placeholder image for Collaboard */}
                     <a href="https://collaboard-rust.vercel.app/" target="_blank" rel="noreferrer" className="item">
-                        <img src={require("../../image/projimg.png")} alt="Collaboard Screenshot" className="netimg" />
+                        <img src={require("../../image/collaboard.png")} alt="Collaboard Screenshot" className="netimg" />
                     </a>
                 </div>
             </div>
