@@ -1,13 +1,55 @@
+.app {
+  min-height: 100vh;
+  overflow-x: hidden;
+  z-index: 1000;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
-  .app{
-    height: 100%;
-    overflow-x: hidden;
-    z-index: 1000;
-  }
-  .sections{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
-  }
+.sections {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+/* Modern scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
+
+/* Smooth transitions for all elements */
+* {
+  transition: all 0.3s ease;
+}
+
+/* Better focus states for accessibility */
+*:focus {
+  outline: 2px solid #667eea;
+  outline-offset: 2px;
+}
+
+/* Modern selection styling */
+::selection {
+  background: rgba(102, 126, 234, 0.3);
+  color: #333;
+}
